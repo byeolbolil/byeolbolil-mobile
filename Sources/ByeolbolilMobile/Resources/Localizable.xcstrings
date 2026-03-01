@@ -204,8 +204,12 @@
         }
       }
     },
+    "Hello [%@](https://skip.dev)!" : {
+
+    },
     "Hello [%@](https://skip.tools)!" : {
       "comment" : "Welcome tab contents",
+      "extractionState" : "stale",
       "localizations" : {
         "es" : {
           "stringUnit" : {
