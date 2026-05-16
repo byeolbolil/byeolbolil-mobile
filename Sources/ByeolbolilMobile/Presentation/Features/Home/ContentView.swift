@@ -8,7 +8,7 @@ struct ContentView: View {
     @AppStorage("tab") var tab = ContentTab.welcome
     @AppStorage("name") var welcomeName = "Skipper"
     @AppStorage("appearance") var appearance = ""
-    @State var viewModel = ViewModel()
+    @State var viewModel = HomeViewModel()
 
     var body: some View {
         TabView(selection: $tab) {
@@ -56,7 +56,7 @@ struct WelcomeView : View {
 }
 
 struct ItemListView : View {
-    @Environment(ViewModel.self) var viewModel: ViewModel
+    @Environment(HomeViewModel.self) var viewModel: HomeViewModel
 
     var body: some View {
         List {
@@ -99,7 +99,7 @@ struct ItemListView : View {
 
 struct ItemView : View {
     @State var item: Item
-    @Environment(ViewModel.self) var viewModel: ViewModel
+    @Environment(HomeViewModel.self) var viewModel: HomeViewModel
     @Environment(\.dismiss) var dismiss
 
     var body: some View {

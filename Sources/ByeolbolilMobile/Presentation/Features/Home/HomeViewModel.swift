@@ -2,8 +2,8 @@ import Foundation
 import Observation
 import SkipFuse
 
-/// The Observable ViewModel used by the application.
-@Observable public class ViewModel {
+/// The Observable ViewModel used by the Home feature.
+@Observable public class HomeViewModel {
     var items: [Item] = loadItems() {
         didSet { saveItems() }
     }
@@ -58,7 +58,7 @@ struct Item : Identifiable, Hashable, Codable {
 }
 
 /// Utilities for defaulting and persising the items in the list
-extension ViewModel {
+extension HomeViewModel {
     private static let savePath = URL.applicationSupportDirectory.appendingPathComponent("appdata.json")
 
     fileprivate static func loadItems() -> [Item] {
