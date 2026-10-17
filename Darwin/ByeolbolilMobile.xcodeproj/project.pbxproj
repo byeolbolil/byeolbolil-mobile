@@ -54,13 +54,15 @@
 		81ADA125308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		81ADA127308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		81ADA129308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		81ADA12C308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		81ADA12E308347B800F43A56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		81ADA12F308347B800F43A56 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		81ADA131308347B800F43A56 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		81ADA135308347B800F43A56 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		81ADA136308347B800F43A56 /* Module.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Module.xcassets; sourceTree = "<group>"; };
 		81ADA138308347B800F43A56 /* skip.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = skip.yml; sourceTree = "<group>"; };
+		81ADA13C308347B800F43A56 /* AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBar.swift; sourceTree = "<group>"; };
+		81ADA13D308347B800F43A56 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		81ADA13E308347B800F43A56 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		81ADA13F308347B800F43A56 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,7 +244,7 @@
 		81ADA12D308347B800F43A56 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				81ADA12C308347B800F43A56 /* .gitkeep */,
+				81ADA140308347B800F43A56 /* Components */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -251,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				81ADA12E308347B800F43A56 /* ContentView.swift */,
-				81ADA12F308347B800F43A56 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -268,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				81ADA130308347B800F43A56 /* Home */,
+				81ADA141308347B800F43A56 /* Main */,
 				81ADA132308347B800F43A56 /* Splash */,
 			);
 			path = Features;
@@ -320,6 +322,24 @@
 			);
 			name = Sources;
 			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		81ADA140308347B800F43A56 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA13C308347B800F43A56 /* AppTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		81ADA141308347B800F43A56 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA13D308347B800F43A56 /* MainTab.swift */,
+				81ADA13E308347B800F43A56 /* MainView.swift */,
+				81ADA13F308347B800F43A56 /* MainViewModel.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
