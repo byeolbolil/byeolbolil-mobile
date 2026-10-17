@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		4900101C2BACEA710000DE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		493609562A6B7EAE00C401E2 /* ByeolbolilMobile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ByeolbolilMobile; path = ..; sourceTree = "<group>"; };
 		496BDBEB2B89A47800C09264 /* ByeolbolilMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByeolbolilMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496BDBED2B8A7E9C00C09264 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = ../Sources/ByeolbolilMobile/Resources/Localizable.xcstrings; sourceTree = "<group>"; };
 		496EB72F2A6AE4DE00C1253A /* Skip.env */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Skip.env; path = ../Skip.env; sourceTree = "<group>"; };
@@ -40,6 +39,28 @@
 		49F90C2B2A52156200F06D93 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Sources/Main.swift; sourceTree = SOURCE_ROOT; };
 		49F90C2F2A52156300F06D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F90C312A52156300F06D93 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.plist; sourceTree = "<group>"; };
+		81ADA10F308347B800F43A56 /* ByeolbolilMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByeolbolilMobileApp.swift; sourceTree = "<group>"; };
+		81ADA111308347B800F43A56 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		81ADA113308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA115308347B800F43A56 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		81ADA116308347B800F43A56 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		81ADA117308347B800F43A56 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		81ADA118308347B800F43A56 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		81ADA119308347B800F43A56 /* RequestTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTask.swift; sourceTree = "<group>"; };
+		81ADA11B308347B800F43A56 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		81ADA11E308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA120308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA122308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA125308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA127308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA129308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA12C308347B800F43A56 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		81ADA12E308347B800F43A56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81ADA12F308347B800F43A56 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		81ADA131308347B800F43A56 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		81ADA135308347B800F43A56 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		81ADA136308347B800F43A56 /* Module.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Module.xcassets; sourceTree = "<group>"; };
+		81ADA138308347B800F43A56 /* skip.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = skip.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +98,8 @@
 				496EB72F2A6AE4DE00C1253A /* Skip.env */,
 				496EB72F2A6AE4DE00C1253B /* ByeolbolilMobile.xcconfig */,
 				496BDBED2B8A7E9C00C09264 /* Localizable.xcstrings */,
-				493609562A6B7EAE00C401E2 /* ByeolbolilMobile */,
 				49F90C2A2A52156200F06D93 /* App */,
+				81ADA13B308347B800F43A56 /* Sources */,
 				49AB54462B066A7E007B79B2 /* SkipStone */,
 				496BDBEC2B89A47800C09264 /* Products */,
 			);
@@ -93,6 +114,212 @@
 				4900101C2BACEA710000DE33 /* Info.plist */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		81ADA110308347B800F43A56 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA10F308347B800F43A56 /* ByeolbolilMobileApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		81ADA112308347B800F43A56 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA111308347B800F43A56 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		81ADA114308347B800F43A56 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA113308347B800F43A56 /* .gitkeep */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		81ADA11A308347B800F43A56 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA115308347B800F43A56 /* APIClient.swift */,
+				81ADA116308347B800F43A56 /* EndPoint.swift */,
+				81ADA117308347B800F43A56 /* HTTPMethod.swift */,
+				81ADA118308347B800F43A56 /* NetworkError.swift */,
+				81ADA119308347B800F43A56 /* RequestTask.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		81ADA11C308347B800F43A56 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA11B308347B800F43A56 /* TokenStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		81ADA11D308347B800F43A56 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA112308347B800F43A56 /* Config */,
+				81ADA114308347B800F43A56 /* Extensions */,
+				81ADA11A308347B800F43A56 /* Network */,
+				81ADA11C308347B800F43A56 /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		81ADA11F308347B800F43A56 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA11E308347B800F43A56 /* .gitkeep */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		81ADA121308347B800F43A56 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA120308347B800F43A56 /* .gitkeep */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		81ADA123308347B800F43A56 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA122308347B800F43A56 /* .gitkeep */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		81ADA124308347B800F43A56 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA11F308347B800F43A56 /* DTOs */,
+				81ADA121308347B800F43A56 /* Mappers */,
+				81ADA123308347B800F43A56 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		81ADA126308347B800F43A56 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA125308347B800F43A56 /* .gitkeep */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		81ADA128308347B800F43A56 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA127308347B800F43A56 /* .gitkeep */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		81ADA12A308347B800F43A56 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA129308347B800F43A56 /* .gitkeep */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		81ADA12B308347B800F43A56 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA126308347B800F43A56 /* Entities */,
+				81ADA128308347B800F43A56 /* Repositories */,
+				81ADA12A308347B800F43A56 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		81ADA12D308347B800F43A56 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA12C308347B800F43A56 /* .gitkeep */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		81ADA130308347B800F43A56 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA12E308347B800F43A56 /* ContentView.swift */,
+				81ADA12F308347B800F43A56 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		81ADA132308347B800F43A56 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA131308347B800F43A56 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		81ADA133308347B800F43A56 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA130308347B800F43A56 /* Home */,
+				81ADA132308347B800F43A56 /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		81ADA134308347B800F43A56 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA12D308347B800F43A56 /* Common */,
+				81ADA133308347B800F43A56 /* Features */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		81ADA137308347B800F43A56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA135308347B800F43A56 /* Localizable.xcstrings */,
+				81ADA136308347B800F43A56 /* Module.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81ADA139308347B800F43A56 /* Skip */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA138308347B800F43A56 /* skip.yml */,
+			);
+			path = Skip;
+			sourceTree = "<group>";
+		};
+		81ADA13A308347B800F43A56 /* ByeolbolilMobile */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA110308347B800F43A56 /* App */,
+				81ADA11D308347B800F43A56 /* Core */,
+				81ADA124308347B800F43A56 /* Data */,
+				81ADA12B308347B800F43A56 /* Domain */,
+				81ADA134308347B800F43A56 /* Presentation */,
+				81ADA137308347B800F43A56 /* Resources */,
+				81ADA139308347B800F43A56 /* Skip */,
+			);
+			path = ByeolbolilMobile;
+			sourceTree = "<group>";
+		};
+		81ADA13B308347B800F43A56 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				81ADA13A308347B800F43A56 /* ByeolbolilMobile */,
+			);
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +370,7 @@
 			);
 			mainGroup = 49F90C1F2A52156200F06D93;
 			packageReferences = (
+				493609562A6B7EAE00C401E2 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 496BDBEC2B89A47800C09264 /* Products */;
 			projectDirPath = "";
@@ -207,6 +435,7 @@
 				ENABLE_PREVIEWS = YES;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				SKIP_ACTION = none;
 			};
 			name = Debug;
 		};
@@ -280,9 +509,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		493609562A6B7EAE00C401E2 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		491F27812DA55B72004926EE /* ByeolbolilMobile */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 493609562A6B7EAE00C401E2 /* XCLocalSwiftPackageReference ".." */;
 			productName = ByeolbolilMobile;
 		};
 /* End XCSwiftPackageProductDependency section */
