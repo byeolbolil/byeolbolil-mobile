@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "ByeolbolilMobile", type: .dynamic, targets: ["ByeolbolilMobile"]),
     ],
     dependencies: [
-        .package(url: "https://source.skip.tools/skip.git", from: "1.7.1"),
-        .package(url: "https://source.skip.tools/skip-fuse-ui.git", from: "1.0.0")
+        .package(url: "https://github.com/skiptools/skip.git", from: "1.7.1"),
+        .package(url: "https://github.com/skiptools/skip-fuse-ui.git", from: "1.0.0")
     ],
     targets: [
         .target(name: "ByeolbolilMobile", dependencies: [
