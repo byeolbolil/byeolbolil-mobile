@@ -22,6 +22,7 @@ struct SplashView: View {
                     .resizable()
                     .frame(width: 120, height: 50)
                     .offset(x: 5)
+                    .padding(.vertical, 12)
 
                 if isLoading {
                     Circle()
